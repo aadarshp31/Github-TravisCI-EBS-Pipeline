@@ -2,10 +2,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t aadarshp31/myReactApp -f Dockerfile.dev .
+  - docker build -t aadarshp31/myreactapp -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true aadarshp31/myReactApp test
+  - docker run -e CI=true aadarshp31/myreactapp test
 
 deploy:
   provider: elasticbeanstalk
