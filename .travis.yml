@@ -13,7 +13,7 @@ deploy:
   secret_access_key: $SECRET_ACCESS_KEY
   region: "ap-south-1"
   app: "Github-TravisCI-EBS-Pipeline"
-  env: "GithubTravisciEbsPipeline-env"
+  env: "Github-TravisCI-EBS-Pipeline-env-1"
   bucket_name: "elasticbeanstalk-ap-south-1-533962485714"
   bucket_path: "Github-TravisCI-EBS-Pipeline"
   on: 
